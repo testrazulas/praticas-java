@@ -36,6 +36,9 @@ public class Gato extends Conta {
     }
 
     public String parar(){
+
         return nome + " parou";
     }
+
+    public abstract String comer();
 }

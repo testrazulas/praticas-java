@@ -1,7 +1,6 @@
-package POO;
+package Praticas.POO;
 
-import POO.classes.*;
-import a22POO.Principal;
+import Praticas.POO.classes.*;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
@@ -17,10 +16,13 @@ public class Gatos {
 
         Gato g1 = new Gato();
         g1.nome = "Panda";
+        InfoGatos.user = g1.nome;
         g1.anoAdocao = 2017;
         g1.calculoIdade();
         g1.peso = 3.2;
 
+        System.out.println(InfoGatos.user);
+        System.out.println(InfoGatos.setVersao("2.0.0"));
         System.out.println(g1.nome);
         System.out.println(g1.anoAdocao);
         System.out.println(g1.calculoIdade());

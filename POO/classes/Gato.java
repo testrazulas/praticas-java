@@ -1,6 +1,6 @@
 package Praticas.POO.classes;
 
-public class Gato {
+public class Gato extends Conta {
 
     public String nome;
     public int anoAdocao;
@@ -33,23 +33,6 @@ public class Gato {
     public String caminha(){
         String nome = this.nome;
         return nome + " está caminhando";
-    }
-
-    public double getSaldo(){
-        return saldo;
-
-    }
-
-    public double depositar(double valor){
-           return saldo += valor;
-    }
-
-    public double sacar(double valor){
-        if (valor > 100){
-            return saldo = saldo - (valor - valor*(0.01));
-        }
-            return saldo = saldo - valor;
-
     }
 
     public String parar(){

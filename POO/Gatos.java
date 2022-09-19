@@ -22,7 +22,8 @@ public class Gatos {
         g1.peso = 3.2;
 
         System.out.println(InfoGatos.user);
-        System.out.println(InfoGatos.setVersao("2.0.0"));
+        System.out.println(InfoGatos.setVersao("Versão Documento - 2.0.0. "));
+        System.out.println();
         System.out.println(g1.nome);
         System.out.println(g1.anoAdocao);
         System.out.println(g1.calculoIdade());
